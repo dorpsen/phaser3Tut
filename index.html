@@ -37,6 +37,10 @@
 
     function preload ()
     {
+        //first new features: comment 1
+        //first new features: comment 2
+        //second new features: comment 1
+        //second new features: comment 2
         this.load.image('sky', 'assets/sky.png');
         this.load.image('ground', 'assets/platform.png');
         this.load.image('star', 'assets/star.png');
@@ -57,7 +61,7 @@
         star.disableBody(true, true);
 
         score += 10;
-        scoreText.setText('Score: ' + score);
+        scoreText.setText('The Score: ' + score);
 
         if (stars.countActive(true) === 0)
         {
